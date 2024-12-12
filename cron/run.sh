@@ -1,7 +1,7 @@
 #!/bin/bash -l
 set -e
 DIR_PATH=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
-cd "$DIR_PATH/.." 
+cd "/home/ubuntu/SRGSlippiLeaderboard/" 
 
 mkdir -p cron/data
 if [ ! -f cron/data/players-new.json ]; then

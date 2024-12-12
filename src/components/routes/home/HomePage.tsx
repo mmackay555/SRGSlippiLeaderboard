@@ -58,6 +58,9 @@ export default function HomePage() {
         {settings.title}
       </h1>
       <div className="p-1 text-gray-300"> Updated {updateDesc}</div>
+      <div className="p-1 text-gray0399">
+      	<a href="https://docs.google.com/forms/d/e/1FAIpQLSedXpsnhNVWpcxAL2CoALjhPh_MZd4fblTKiHv8k45aOGTqLw/viewform">Click here to submit code to leaderboard</a>
+      </div>
       <Table players={players} />
       <div className="p-4 text-gray-300 flex flex-col">
         <div>Built by mackee :3</div>
